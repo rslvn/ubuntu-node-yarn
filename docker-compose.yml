@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  node:
+    build: ./
+    image: rslvn/ubuntu-node-yarn
