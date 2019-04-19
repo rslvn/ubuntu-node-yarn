@@ -3,26 +3,31 @@
 Current node docker image has too big size. 
 This repository is enveloped to use a minimal node docker image/container. 
 
+## repository
+[github](https://github.com/rslvn/ubuntu-node-yarn)
 
-## build
+## image
+[ubuntu-node-yarn](https://hub.docker.com/r/rslvn/ubuntu-node-yarn)
+
+## build the image
 ```
 cd build
 docker-compose build
 ```
 
-## run
+## run the container
 ```
 cd run
 docker-compose up
 ```
 
-## validate
+## validate the image and container
 ```
 docker images
 docker ps
 ```
 
-## destroy container
+## destroy the container
 ```
 docker-compose down
 ```
