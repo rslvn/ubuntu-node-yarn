@@ -3,6 +3,11 @@
 Current node docker image has too big size. 
 This repository is enveloped to use a minimal node docker image/container. 
 
+## repository
+[github](https://github.com/rslvn/ubuntu-node-yarn)
+
+## image
+[ubuntu-node-yarn](https://cloud.docker.com/repository/docker/rslvn/ubuntu-node-yarn)
 
 ## build
 ```
